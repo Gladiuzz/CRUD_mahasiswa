@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.RelativeLayout;
 
+import java.util.List;
+
 public class Dashboard extends AppCompatActivity implements View.OnClickListener {
     RelativeLayout read, input, informasi;
 
@@ -26,12 +28,12 @@ public class Dashboard extends AppCompatActivity implements View.OnClickListener
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
-//            case R.id.Lihat_Data:
-//                startActivity(new Intent(Dashboard.this,));
-//                break;
-//            case R.id.Input_data:
-//                startActivity(new Intent(Dashboard.this,));
-//                break;
+            case R.id.Lihat_Data:
+                startActivity(new Intent(Dashboard.this, List_Data.class));
+                break;
+            case R.id.Input_data:
+                startActivity(new Intent(Dashboard.this, Dialog.class));
+                break;
 //            case R.id.Informasi:
 //                startActivity(new Intent(Dashboard.this,));
 //                break;

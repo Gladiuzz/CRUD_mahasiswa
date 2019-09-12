@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
-    private static final int DB_VERSION = 1;
+    private static final int DB_VERSION = 201;
     private static final String DB_NAME = "db_mahasiswa";
     private static final String TABLE_NAME = "db_mahasiswa";
     private static final String FIELD_NOMOR = "nim";

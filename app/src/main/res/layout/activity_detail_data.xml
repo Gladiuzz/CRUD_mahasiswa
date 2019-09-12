@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detail_Data"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/frame1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/student1"/>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/nomor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txt_nomor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nomor"
+                android:textAppearance="?android:textAppearanceSmall"/>
+
+            <EditText
+                android:id="@+id/edt_nomor1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="35dp"
+                android:layout_marginTop="15dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_create_black_24dp"
+                android:layout_below="@id/txt_nomor"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp">
+
+            <TextView
+                android:id="@+id/txt_nama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama"
+                android:textAppearance="?android:textAppearanceSmall"/>
+
+            <EditText
+                android:id="@+id/edt_nama1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="35dp"
+                android:layout_marginTop="15dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_group_black_24dp"
+                android:layout_below="@id/txt_nama"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/tgl_lahir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp">
+
+            <TextView
+                android:id="@+id/txt_tgl_lahir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tanggal Lahir"
+                android:textAppearance="?android:textAppearanceSmall"/>
+
+            <EditText
+                android:id="@+id/edt_tglLahir1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="35dp"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_date_range_black_24dp"
+                android:layout_below="@id/txt_tgl_lahir"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/Jenis_Kelamin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp">
+
+            <TextView
+                android:id="@+id/txt_JK"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jenis Kelamin"
+                android:textAppearance="?android:textAppearanceSmall"/>
+
+            <EditText
+                android:id="@+id/edt_JK1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="35dp" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_person_black_24dp"
+                android:layout_below="@id/txt_JK"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/alamat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp">
+
+            <TextView
+                android:id="@+id/txt_alamat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alamat"
+                android:textAppearance="?android:textAppearanceSmall"/>
+
+            <EditText
+                android:id="@+id/edt_alamat1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="35dp"
+                android:layout_marginTop="15dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_place_black_24dp"
+                android:layout_below="@id/txt_alamat"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"/>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
